@@ -1,0 +1,7 @@
+dheart
+/.env
+build
+tmp
+.idea
+test/e2e/fake-sisu/db
+.vscode

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "github.com/sodiumlabs/dheart/types/ecdsa";
+
+package ecdsa;
+
+message Keygen {
+  int64 number = 1;
+  string hash = 2;
+  repeated string partyIds = 3;
+}

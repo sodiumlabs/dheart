@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "github.com/sodiumlabs/dheart/types/common";
+
+import "proto/common/tss_message.proto";
+
+package common;
+
+message SignedMessage {
+  string from = 1;
+  TssMessage tssMessage = 2;
+  bytes signature = 3;
+}

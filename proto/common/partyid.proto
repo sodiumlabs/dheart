@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "github.com/sodiumlabs/dheart/types/common";
+
+package common;
+
+message PartyId {
+  string id = 1;
+  string moniker = 2;
+  bytes key = 3;
+}
